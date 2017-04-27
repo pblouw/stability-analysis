@@ -1,6 +1,6 @@
-**************************************************************
-# Stability Analysis of Neural Networks using Eigendecomposition
-**************************************************************
+***************************************
+# Stability Analysis of Neural Networks
+***************************************
 
 This repository contains two Jupyter notebooks that provide an analysis of certain dynamical properties of neural networks. The first notebook examines a class of networks called Hopfield Networks, which can be used to implement cleanup memories and to solve simple constraint satisfaction problems. A Hopfield Network is recurrently connected to implement a dynamical system with a number of attractors that correspond to certain representational states of interest. Upon initialization, the network's state will move through a trajectory in  towards one of these attractors, thereby performing a kind of computation. The notebook explores the use of both continuous and discrete Hopfield networks, and examines the use of attractor points that correspond to holographic reduced representations (HRRs), or distributed encodings of simple symbol structures. 
 
