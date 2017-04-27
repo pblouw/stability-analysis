@@ -1,0 +1,9 @@
+**************************************************************
+Stability Analysis of Neural Networks using Eigendecomposition
+**************************************************************
+
+This repository contains two Jupyter notebooks that provide an analysis of certain dynamical properties of neural networks. The first notebook examines a class of networks called Hopfield Networks, which can be used to implement cleanup memories and to solve simple constraint satisfaction problems. A Hopfield Network is recurrently connected to implement a dynamical system with a number of attractors that correspond to certain representational states of interest. Upon initialization, the network's state will move through a trajectory in  towards one of these attractors, thereby performing a kind of computation. The notebook explores the use of both continuous and discrete Hopfield networks, and examines the use of attractor points that correspond to holographic reduced representations (HRRs), or distributed encodings of simple symbol structures. 
+
+The second notebook examines the use of recurrently connected networks to perform constraint-based parsing of symbol structures. The idea is to match input representations to HRR representations of parse trees be encoding a set of constraints on permissible tree structure into a network's weight matrix. An eiganvalue decomposition of this weight matrix can then be used to analyze which stable points the network will converge to. 
+
+Running the notebooks requires the installation of Nengo, along with Numpy, Scipy, and Matplotlib. Installation instructions for Nengo can be found `here <https://github.com/nengo/nengo`. No effort has been to maintain the compatability of these notebooks with recent releases of the software packages in question, so if something is broken, please contact me at pblouw@uwaterloo.ca 
